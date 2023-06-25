@@ -14,7 +14,6 @@ void main() {
           height: double.infinity,
           decoration: BoxDecoration(color: Color.fromARGB(255, 134, 58, 141)),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.end,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Row(
@@ -32,6 +31,7 @@ void main() {
                   ),
                 ],
               ),
+              SizedBox(height: 20),
               Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -47,6 +47,7 @@ void main() {
                   ),
                 ],
               ),
+              SizedBox(height: 20),
               Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -59,6 +60,96 @@ void main() {
                       fontFamily: GoogleFonts.yesevaOne().fontFamily,
                     ),
                   ),
+                ],
+              ),
+              SizedBox(height: 20),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                      height: 60,
+                      width: 300,
+                      alignment: Alignment.center,
+                      padding: const EdgeInsets.all(15),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.white,
+                      ),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Column(
+                            children: [
+                              Container(
+                                height: 30,
+                                width: 30,
+                                padding: const EdgeInsets.all(5),
+                                child: const CircleAvatar(
+                                  backgroundImage: AssetImage(
+                                      "assets/images/icon_phone.png"),
+                                ),
+                              ),
+                            ],
+                          ),
+                          const Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  '+383 44 123 456',
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                  ),
+                                )
+                              ])
+                        ],
+                      ))
+                ],
+              ),
+              SizedBox(height: 20),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                      height: 60,
+                      width: 300,
+                      alignment: Alignment.center,
+                      padding: const EdgeInsets.all(15),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.white,
+                      ),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Column(
+                            children: [
+                              Container(
+                                height: 30,
+                                width: 30,
+                                padding: const EdgeInsets.all(5),
+                                child: const CircleAvatar(
+                                  backgroundImage:
+                                      AssetImage("assets/images/icon_mail.png"),
+                                ),
+                              ),
+                            ],
+                          ),
+                          const Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  'hasani.florinda@gmail.com',
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                  ),
+                                )
+                              ])
+                        ],
+                      ))
                 ],
               )
             ],
