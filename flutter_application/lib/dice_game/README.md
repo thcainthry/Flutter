@@ -1,8 +1,6 @@
-# flutter_application_3
 
-A new Flutter project.
 
-## Getting Started
+
 This dice game app will switch images and the winner will be displayed in the other page.  
 
 
