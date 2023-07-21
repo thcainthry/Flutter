@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/food.dart';
-import 'package:flutter_application_1/food_item.dart';
+import './food.dart';
+import './food_item.dart';
 
 void main() {
   runApp(MaterialApp(
